@@ -1,0 +1,71 @@
+p, li {
+    color:blue;
+    background-color: aqua;
+}
+
+h2 {
+    color:skyblue;
+    background-color:rgb(251, 0, 0);
+    text-align: center;
+    font-size: 4vw;
+    font-family:'Times New Roman', Times, serif
+}
+
+ol {
+    background-color: aquamarine;
+}
+
+li {
+    background-color: cyan;
+}
+
+.navbar {
+    background-color: aliceblue;
+    border: solid #000080;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar th {
+    border-style: solid #000080;
+    padding: 5px;
+}
+
+body {
+    background-image: url(../Img/1046.png);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: #26F0F1;
+    color: rgb(11, 81, 58);
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid floralwhite;
+}
+
+.profile {
+    background-color: blue;
+    text-align: center;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #00ffcc;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    box-shadow: 5px 5px 10px aqua;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.active {
+    background-color: aqua;
+}
